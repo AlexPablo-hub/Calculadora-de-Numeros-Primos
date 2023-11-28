@@ -1,0 +1,119 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('imagem/texture-pattern.jpg') center/cover fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto; 
+}
+
+/* Aplicar desfoque apenas ao background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: inherit;
+    filter: blur(5px);
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilo para o campo de entrada */
+#inputField {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 15px;
+    font-size: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #a3a3a35e;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para a grade dos botões numéricos */
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+/* Estilo para os botões numéricos */
+.numpad button {
+    width: 80px;
+    height: 60px;
+    font-size: 35px;
+    background-color: #237ab4;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    margin-bottom: 10px; 
+}
+
+/* Estilo de hover para os botões numéricos */
+.numpad button:hover {
+    background-color: #ffffff;
+    color: #237ab4;
+    border: 2px solid #237ab4;
+    border-radius: 10px;
+}
+
+/* Estilo para o resultado */
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Estilo para o contêiner dos botões Limpar e Enviar */
+.button-container {
+    display: flex;
+    height: 40px;
+    width: 300px; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Estilo para os botões Limpar e Enviar */
+.button-container button {
+    width: 48%; 
+    padding: 10px;
+    font-size: 19px; 
+    background-color: #4ea966; 
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+/* Estilo de hover para os botões Limpar e Enviar */
+.button-container button:hover {
+    background-color: white; 
+    color: #4ea966; 
+    border: 2px solid #4ea966;
+    border-radius: 5px;
+}
