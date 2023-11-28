@@ -20,6 +20,7 @@ Uma calculadora simples para verificar se um número é primo, fornecendo inform
 - Fornece informações sobre números primos anteriores e divisores para números compostos.
 - Botões numéricos facilitam a entrada de números.
 - Opção de limpar o campo de entrada.
+- Números acima de 10.000.000 costumam a demorar dependendo do desempenho da maquina.
 
 # Estilo e Design
 O design da calculadora é simples, elegante e responsivo. O plano de fundo possui uma textura suave, proporcionando uma aparência agradável.
