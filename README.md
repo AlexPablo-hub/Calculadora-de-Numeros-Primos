@@ -4,9 +4,9 @@ Uma calculadora simples para verificar se um número é primo, fornecendo inform
 # Imagens de Demonstração
 
 <p float="left">
-  <img src="imagens/tela1.png" width="300" />
-  <img src="imagens/tela2.png" width="300" /> 
-  <img src="imagens/tela3.png" width="300" />
+  <img src="imagens/tela1.JPG" width="300" />
+  <img src="imagens/tela2.JPG" width="300" /> 
+  <img src="imagens/tela3.JPG" width="300" />
 </p>
 
 # Como Usar
