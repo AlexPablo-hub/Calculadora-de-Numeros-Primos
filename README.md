@@ -36,4 +36,6 @@ Se você tiver sugestões de melhorias ou encontrar problemas, sinta-se à vonta
 # Autor
 Este projeto foi criado por Alex Pablo.
 
+Curso de Sistemas de Informação - UNEMAT.
+
 Espero que você aproveite a experiência e faça bom uso.
