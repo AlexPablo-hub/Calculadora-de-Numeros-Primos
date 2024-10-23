@@ -4,9 +4,9 @@ Uma calculadora simples para verificar se um número é primo, fornecendo inform
 # Imagens de Demonstração
 
 <p float="left">
-  <img src="imagens/tela1.JPG" width="300" />
-  <img src="imagens/tela2.JPG" width="300" /> 
-  <img src="imagens/tela3.JPG" width="300" />
+  <img src="imagens/tela1.JPG" width="400" />
+  <img src="imagens/tela2.JPG" width="400" /> 
+  <img src="imagens/tela3.JPG" width="400" />
 </p>
 
 # Como Usar
@@ -33,9 +33,12 @@ Sinta-se à vontade para experimentar diferentes cores, fontes ou elementos de d
 # Contribuição
 Se você tiver sugestões de melhorias ou encontrar problemas, sinta-se à vontade para enviar um pull request. Sua contribuição é bem-vinda!
 
-# Autor
-Este projeto foi criado por Alex Pablo.
+## 👨‍💻 Desenvolvedor
 
-Curso de Sistemas de Informação - UNEMAT.
+Este projeto foi desenvolvido por **Alex Pablo de Oliveira Moraes**. 
 
-Espero que você aproveite a experiência e faça bom uso.
+Sou estudante de **Sistemas de Informação** na **UNEMAT**, apaixonado por tecnologia, programação e segurança de redes e tecnologias relacionadas ao desenvolvimento backend e segurança da informação.
+
+Você pode me encontrar nas redes sociais ou conferir meus outros projetos no meu perfil [GitHub](https://github.com/AlexPablo-hub).
+
+Se tiver alguma dúvida ou sugestão sobre o projeto, fique à vontade para entrar em contato!
